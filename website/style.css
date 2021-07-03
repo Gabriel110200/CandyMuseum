@@ -1,0 +1,72 @@
+
+
+body{
+    background-color: #f5d9d5; 
+    font-family: "Nunito",sans-serif; 
+    
+}  
+
+#mainNavbar .nav-link{
+    color: white; 
+    font-weight: 300;
+} 
+
+#mainNavbar .nav-link:hover{
+    color:red;
+} 
+
+.scrollNav{ 
+    transition-property: background-color; 
+    transition-duration: 1s;
+    background-color: rgba(153, 22, 153,0.5); 
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+h1{
+    font-size: 70px; 
+    font-weight: 200;
+} 
+
+.text{
+    max-width:600px; 
+    margin:10px auto; 
+    color:rgba(153, 22, 153,0.5);
+} 
+
+img{
+    width:100%
+}  
+
+.lolli_icon{
+  
+    width:150px;
+}
+
+.uncentered-div{
+    
+    padding-top:45px ;
+  
+}
+
+@media(max-width:1360px){
+    h1{
+        font-size:50px;
+    }
+}  
+
+/*
+@media(max-width:991px){
+    .museum-text{
+       display: block; 
+       background-color: black;
+       
+    }
+} */
+
+@media(max-width:500px){
+    h1{
+        font-size:30px;
+    } 
+
+    
+}
